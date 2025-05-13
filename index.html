@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dijual rumah strategis di Cimanggis, Depok. SHM, lokasi pinggir jalan besar, dekat tol & Margo City. Harga miring!">
+  <meta name="keywords" content="jual rumah depok, rumah murah depok, rumah strategis cimanggis, rumah dekat tol depok, rumah pinggir jalan depok">
+  <title>Rumah Dijual Strategis di Cimanggis - Depok | Harga Miring</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      background-color: white;
+    }
+
+    h1, h2 {
+      color: #333;
+    }
+
+    .hero {
+      background-color: #a7c5e8;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      color: #2e4057;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin-top: 15px;
+    }
+
+    .gallery-item {
+      width: 125px;
+      height: 85px;
+      object-fit: cover;
+      border-radius: 8px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+
+    .gallery-item:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Modal - Lightbox */
+    .lightbox {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+
+    .lightbox:target {
+      display: flex;
+    }
+
+    .lightbox img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+      box-shadow: 0 0 25px rgba(255, 255, 255, 0.3);
+    }
+
+    .lightbox-close {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      color: white;
+      font-size: 24px;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 5px;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+
+    .cta {
+      background-color: #25D366;
+      color: white;
+      padding: 12px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta:hover {
+      background-color: #4dbf74;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px;
+      background: linear-gradient(135deg, #5cb85c, #4cae4c);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="hero">
+      <h1>Dijual Rumah Strategis di Depok</h1>
+      <p><strong>Lokasi:</strong> Cimanggis - Depok</p>
+      <p><strong>Harga:</strong> Rp 2,2 Milyar (nego)</p>
+    </div>
+
+    <div class="gallery">
+      <!-- Lightbox link -->
+      <a href="#lightbox-1">
+        <img src="images/halamandepan.jpg" alt="Foto Rumah 1" class="gallery-item">
+      </a>
+      <a href="#lightbox-2">
+        <img src="images/ruangandepancomplete.jpg" alt="Foto Rumah 2" class="gallery-item">
+      </a>
+      <a href="#lightbox-3">
+        <img src="images/tampakdepan.jpg" alt="Foto Rumah 3" class="gallery-item">
+      </a>
+      <a href="#lightbox-4">
+        <img src="images/dapurdll.jpg" alt="Foto Rumah 4" class="gallery-item">
+      </a>
+      <a href="#lightbox-5">
+        <img src="images/ruangandalam.jpg" alt="Foto Rumah 5" class="gallery-item">
+      </a>
+    </div>
+
+    <div class="info">
+      <h2>Detail Properti</h2>
+      <ul>
+        <li>Luas Bangunan: 65 m²</li>
+        <li>Luas Tanah: 143 m²</li>
+        <li>Ruang Tamu + pintu teralis</li>
+        <li>Ruang Keluarga + Ruang Makan</li>
+        <li>Kamar Tidur Utama + Kamar Mandi Dalam</li>
+        <li>2 Kamar Tidur Anak</li>
+        <li>1 Kamar Tidur Pembantu</li>
+        <li>Kamar Mandi + Ruang Cuci/Laundry + Dapur</li>
+        <li>Garasi + Halaman</li>
+        <li>Listrik: 4400 Watt</li>
+        <li>Air PDAM</li>
+      </ul>
+
+      <h2>Keunggulan Lokasi</h2>
+      <ul>
+        <li>SHM (Sertifikat Hak Milik)</li>
+        <li>Lokasi pinggir jalan besar, strategis</li>
+        <li>Dekat SMP, TK, Margo City, Kelurahan Cimanggis & Kantor Walikota</li>
+        <li>Akses Tol: Cibubur, Cijago, Cinere</li>
+        <li>Bebas banjir, lingkungan asri, security 24 jam</li>
+      </ul>
+
+      <h2>Bonus</h2>
+      <ul>
+        <li>Kitchen Set</li>
+      </ul>
+
+      <a href="https://wa.me/6289606079334" class="cta" target="_blank">📱 Chat via WhatsApp</a>
+    </div>
+  </div>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox-1" class="lightbox">
+    <a href="#" class="lightbox-close">&times;</a>
+    <img src="images/halamandepan.jpg" alt="Foto Rumah 1">
+  </div>
+  <div id="lightbox-2" class="lightbox">
+    <a href="#" class="lightbox-close">&times;</a>
+    <img src="images/ruangandepancomplete.jpg" alt="Foto Rumah 2">
+  </div>
+  <div id="lightbox-3" class="lightbox">
+    <a href="#" class="lightbox-close">&times;</a>
+    <img src="images/tampakdepan.jpg" alt="Foto Rumah 3">
+  </div>
+  <div id="lightbox-4" class="lightbox">
+    <a href="#" class="lightbox-close">&times;</a>
+    <img src="images/dapurdll.jpg" alt="Foto Rumah 4">
+  </div>
+  <div id="lightbox-5" class="lightbox">
+    <a href="#" class="lightbox-close">&times;</a>
+    <img src="images/ruangandalam.jpg" alt="Foto Rumah 5">
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Rumah Dijual Depok - Abdul. All rights reserved.</p>
+  </footer>
+</body>
+</html>
